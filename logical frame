@@ -1,0 +1,21 @@
+LOCALIZED AI ON-SCREEN MARKING (OSM):
+
+To neutralize the risk of external interception, server injections, and cloud-based security breaches, the multi-model engine is deployed on specialized server clusters running on an air-gapped local area network (LAN) at decentralized regional evaluation centres.
+
+Phase 1: Computer Vision (CV) Validation LayerIngestion Pipeline: Physical answer sheets are converted to digital assets at localized scanning checkpoints.
+
+Structural Auditing: A convolutional neural network (CNN) processes the assets to confirm structural alignment, image contrast, page-sequencing continuity, and matching student optical mark recognition (OMR) barcodes.
+
+Exception Handling: Any asset falling below clarity thresholds or featuring profile mismatches is instantly isolated and routed to an administrative queue for physical validation.
+
+Phase 2: Natural Language Processing (NLP) Semantic Grading EngineTranscription: Hand-written student scripts are digitised via a handwriting recognition (HTR) pipeline optimized for regional textual variants.
+
+Semantic Analysis: Language Models tuned specifically for academic curricula process the conceptual meaning of answers rather than simple keyword matching.
+
+Draft Generation: The NLP engine produces a preliminary evaluation score alongside an automatically generated text rationale that explicitly details the grading breakdown based on structural marking rubrics.
+
+Phase 3: Statistical Human-in-the-Loop Anomaly DetectionPrimary Human Interface: The physical evaluator reviews the digital paper alongside the AI’s generated draft rationale. The evaluator retains full authority to accept, modify, or override the score.
+
+Variance Tracking: A baseline statistical engine tracks the distribution curve of the evaluator's scoring adjustments against historical and systemic averages.
+
+Bias Mitigation: If an evaluator exhibits consistent, statistically anomalous overrides beyond acceptable standard deviations, the framework flags the user for potential grading bias and auto-routes the paper to a senior moderator.
